@@ -1,0 +1,52 @@
+.quiz-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    border: 0.2rem solid #d1cece;
+    border-radius: 0.75rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    margin-bottom: auto;
+    background-color: #ddd;
+  }
+  .quiz-card1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 3rem;
+    border: 0.2rem solid #d1cece;
+    border-radius: 0.75rem;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    background-color: #fcfbfb;
+  }
+  
+  .quiz-card__image {
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: #ddd;
+    border-radius: 0.75rem;
+    margin-right: 1.25rem;
+  }
+  
+  .quiz-card__text {
+    flex: 1;
+  }
+  
+  .quiz-card__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 0.7rem;
+    text-align: center;
+    
+  }
+  
+  .quiz-card__description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
